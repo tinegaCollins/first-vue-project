@@ -32,10 +32,11 @@ export default {
           title: 'elon smusk',
           title2: 'fuck off',
           title3: 'early bird'
-        },
-    ]
+        }
+     ]
+    }
   },
-  methods: {
+  methods : {
     dropDown(event){
       event.target.classList.add('show');
     },
