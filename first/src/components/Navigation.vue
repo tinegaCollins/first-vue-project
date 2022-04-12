@@ -17,8 +17,23 @@
 export default {
   data(){
     return {
-      
-    }
+      dropdownData: [
+        {
+          title: 'elon smusk',
+          title2: 'fuck off',
+          title3: 'early bird'
+        },
+        {
+          title: 'elon smusk',
+          title2: 'fuck off',
+          title3: 'early bird'
+        },
+        {
+          title: 'elon smusk',
+          title2: 'fuck off',
+          title3: 'early bird'
+        },
+    ]
   },
   methods: {
     dropDown(event){
