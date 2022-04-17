@@ -2,7 +2,7 @@
     <topbar/>
     <Navigation />
     <main>
-        
+          <router-view/>
     </main>
 </template>
 
