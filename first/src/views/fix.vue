@@ -1,9 +1,15 @@
 <template>
-  <h1>this is the fix pallette</h1>
+  <div class="viewsDiv">
+     <main-content/>
+  </div>
 </template>
 
 <script>
+
+
+import mainContent from '../components/mainContent.vue'
 export default {
+  components: { mainContent }
 
 }
 </script>

@@ -1,5 +1,7 @@
 <template>
-   <h1>how to pallete</h1>
+    <div class="viewsDiv">
+    
+   </div>
 </template>
 
 <script>

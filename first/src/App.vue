@@ -1,6 +1,6 @@
 <template>
     <topbar/>
-    <Navigation />
+    <Navigation  @toggleside="toggleSidebar"/>
     <main>
           <sidebar v-if="showSideBar"/>
           <router-view/>
@@ -16,14 +16,22 @@ import './assets/global.css';
 
 export default { 
   components: { topbar, Navigation, sidebar },
-  props: ['showSideBar'],
+  data(){
+    return{
+      showSideBar: false
+    }
+  },
+  methods: {
+    toggleSidebar(){
+      this.showSideBar = !this.showSideBar
+    }
+  }
 }
 </script>
 
 <style>
   main{
     margin-top: 30px;
-    background-color: red;
     min-height: 80vh;
     display: flex;
   }

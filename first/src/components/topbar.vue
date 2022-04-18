@@ -15,12 +15,14 @@ export default {
 </script>
 
 <style>
-    #topbar{
+  #topbar{
     height: 60px;
     width: 100%;
     display: flex;
     align-items: center;
     margin-top: 20px;
+    position: sticky;
+    top: 0;
   } 
   #topbar .icon{
     margin:0 auto 0 30px;
@@ -28,7 +30,7 @@ export default {
   #topbar .icon p{
     font-size: 2rem;
     font: "Open Sans", sans-serif;
-    color: #27AEDE;
+    color: #E27D5F;
   }
   #topbar .icon p span{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -48,6 +50,7 @@ export default {
     display: flex;
     align-items: center;
     column-gap: 10px;
+    color: #E27D5F;
     padding-right: 10px;
     border-right: 1px solid #333;
   }

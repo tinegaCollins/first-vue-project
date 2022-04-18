@@ -1,5 +1,7 @@
 <template>
-  <h1>gaming pallete</h1>
+    <div class="viewsDiv">
+    
+    </div>
 </template>
 
 <script>

@@ -1,5 +1,7 @@
 <template>
-  <h1>this is the windows 11 pallette</h1>
+    <div class="viewsDiv">
+    
+    </div>
 </template>
 
 <script>
