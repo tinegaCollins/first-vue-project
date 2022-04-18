@@ -14,6 +14,10 @@ body{
     display: flex;
     flex-direction: row-reverse;
 }
+.viewsDiv .img{
+    min-width: 300px;
+    padding-left: 60px;
+}
 .viewsDiv .img > img{
     height: 200px;
     width: auto;
@@ -23,3 +27,13 @@ body{
     font-weight: 500;
     margin-bottom: 10px;
 }
+.text > h2{
+    text-align: center;
+}
+.text{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
