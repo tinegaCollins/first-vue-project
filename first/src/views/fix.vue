@@ -9,8 +9,12 @@
 
 import mainContent from '../components/mainContent.vue'
 export default {
-  components: { mainContent }
-
+  components: { mainContent },
+  data(){
+    return{
+      text: 'this is the fix view'
+    }
+  },
 }
 </script>
 

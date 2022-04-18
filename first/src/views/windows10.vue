@@ -1,10 +1,22 @@
 <template>
   <div class="viewsDiv">
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam voluptatum vero possimus quod soluta blanditiis quibusdam esse, veniam ipsum perspiciatis ipsa doloribus nulla autem quas, unde ut consequatur, ex molestiae accusamus sit repellendus corporis aliquam? Quis laborum aliquam obcaecati vitae sunt deleniti tempora rerum cumque repellendus nobis. Nam a aut eligendi veritatis beatae illo dolor laboriosam, asperiores minima. Consequuntur dolores dolor iste dicta necessitatibus ratione blanditiis eaque sequi et expedita ullam excepturi, officiis qui voluptatum, inventore quaerat in laboriosam, beatae fugit provident reprehenderit unde quibusdam a fuga. Incidunt, tempore pariatur. Odit nobis cum culpa nam repudiandae magnam fuga quasi!</p>
+     <div class="img">
+       <img src="https://www.kindpng.com/picc/m/128-1285099_transparent-nicki-minaj-png-nicki-minaj-face-shots.png" alt="">
+       <div class="details">
+         <h3>Author</h3>
+         <h4>Nicki Minaj</h4>
+         <h4>musician</h4>
+       </div>
+     </div>
+     <main>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus temporibus non cum dolorum. Nesciunt aliquid doloribus optio, repudiandae praesentium minus ea blanditiis in vero alias ipsam deleniti quae voluptates labore harum? Doloremque sapiente repellendus velit. Qui mollitia magnam, atque, debitis quos sequi ducimus ipsa amet ipsum voluptas ut recusandae deserunt beatae nemo reprehenderit, illo quod delectus magni rem repellat? Sed ea, voluptatem nihil nostrum placeat veniam voluptates animi soluta optio harum iste veritatis fugit nisi amet voluptatum eveniet asperiores ipsum aliquid consequuntur magni, nam beatae pariatur. Perferendis voluptates laudantium saepe ex minima laborum voluptatum asperiores illo doloremque, ad veritatis facilis?</p>
+     </main>
   </div>
 </template>
 
-<script>
+<script> 
+
+
 export default {
 
 }
